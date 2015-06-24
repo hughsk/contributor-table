@@ -1,0 +1,10 @@
+Usage: contributor-table {OPTIONS}
+
+Automatically inject a list of your git repository's
+contributors into your readme.
+
+Options:
+  -d, --dirname  The git project to check for contributors. Default: $(pwd)
+  -r, --readme   The readme file to process and update. Default: README.md
+  -c, --check    Ignore the email cache and prompt for new user details again.
+                 Useful for correcting mistakes.

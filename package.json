@@ -1,0 +1,46 @@
+{
+  "name": "contributor-table",
+  "version": "1.0.0",
+  "description": "Automatically inject a list of your git repository's contributors into your readme",
+  "main": "index.js",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "contributor-table": "bin.js"
+  },
+  "scripts": {
+    "prepublish": "node bin"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "git-contributors": "^0.2.3",
+    "inquirer": "^0.8.5",
+    "map-limit": "0.0.1",
+    "mdast": "^0.22.0",
+    "mdast-contributors": "^1.0.1",
+    "minimist": "^1.1.1",
+    "mkdirp": "^0.5.1",
+    "userhome": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/contributor-table.git"
+  },
+  "keywords": [
+    "readme",
+    "github",
+    "process",
+    "contributors",
+    "update",
+    "lazy",
+    "automatic"
+  ],
+  "homepage": "https://github.com/hughsk/contributor-table",
+  "bugs": {
+    "url": "https://github.com/hughsk/contributor-table/issues"
+  }
+}
